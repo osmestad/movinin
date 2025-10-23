@@ -39,8 +39,9 @@ const logger = winston.createLogger({
     new transports.Console({
       format: format.combine(format.colorize(), logFormat),
     }),
-    new transports.File({ filename: 'logs/error.log', level: 'error', format: logFormat }),
-    new transports.File({ filename: 'logs/all.log', level: 'info', format: logFormat }),
+    // Disable file logging for now
+   // new transports.File({ filename: 'logs/error.log', level: 'error', format: logFormat }),
+   // new transports.File({ filename: 'logs/all.log', level: 'info', format: logFormat }),
   ],
 })
 
