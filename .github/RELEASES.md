@@ -1,8 +1,44 @@
 # Releases
 
-## [Movin' In 6.4](https://github.com/aelassas/movinin/releases/tag/v6.4) – 2025-07-24
+## [Movin' In 6.6](https://github.com/aelassas/movinin/releases/tag/v6.6) – 2025-12-21
 
-test
+* fix(docker): remove version from `docker-compose.yml` (#17)
+* fix(admin,frontend): production build issues
+* chore(deps): update dependencies
+
+### Assets
+- [movinin-6.6.apk](https://github.com/aelassas/movinin/releases/download/v6.6/movinin-6.6.apk) (99.86 MB)
+- [movinin-db.zip](https://github.com/aelassas/movinin/releases/download/v6.6/movinin-db.zip) (4.74 MB)
+
+### Source Code
+- [Source code (zip)](https://api.github.com/repos/aelassas/movinin/zipball/v6.6)
+- [Source code (tar)](https://api.github.com/repos/aelassas/movinin/tarball/v6.6)
+
+## [Movin' In 6.5](https://github.com/aelassas/movinin/releases/tag/v6.5) – 2025-11-01
+
+* fix(admin,frontend): production build issues
+* chore(mobile): update dependencies
+
+### Assets
+- [movinin-6.5.apk](https://github.com/aelassas/movinin/releases/download/v6.5/movinin-6.5.apk) (99.86 MB)
+- [movinin-db.zip](https://github.com/aelassas/movinin/releases/download/v6.5/movinin-db.zip) (4.74 MB)
+
+### Source Code
+- [Source code (zip)](https://api.github.com/repos/aelassas/movinin/zipball/v6.5)
+- [Source code (tar)](https://api.github.com/repos/aelassas/movinin/tarball/v6.5)
+
+## [Movin' In 6.4](https://github.com/aelassas/movinin/releases/tag/v6.4) – 2025-10-26
+
+* chore(mobile): upgrade to expo 54
+* chore(deps): update dependencies
+* fix(frontend): typo in checkout form (#15)
+* fix(mobile): update dependencies to resolve expo doctor warnings
+* fix(mobile): status bar background color and text color not applied on android
+* fix(mobile): drawer navigator bottom inset for devices with home indicator
+
+### Assets
+- [movinin-6.4.apk](https://github.com/aelassas/movinin/releases/download/v6.4/movinin-6.4.apk) (99.86 MB)
+- [movinin-db.zip](https://github.com/aelassas/movinin/releases/download/v6.4/movinin-db.zip) (4.74 MB)
 
 ### Source Code
 - [Source code (zip)](https://api.github.com/repos/aelassas/movinin/zipball/v6.4)

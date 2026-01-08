@@ -1,9 +1,10 @@
 [![build](https://github.com/aelassas/movinin/actions/workflows/build.yml/badge.svg)](https://github.com/aelassas/movinin/actions/workflows/build.yml) 
 [![test](https://github.com/aelassas/movinin/actions/workflows/test.yml/badge.svg)](https://github.com/aelassas/movinin/actions/workflows/test.yml)
-[![codecov](https://img.shields.io/codecov/c/github/aelassas/movinin?label=coverage)](https://codecov.io/gh/aelassas/movinin) 
+[![coveralls](https://coveralls.io/repos/github/aelassas/movinin/badge.svg?branch=main)](https://coveralls.io/github/aelassas/movinin?branch=main)
 [![containerize](https://github.com/aelassas/movinin/actions/workflows/containerize.yml/badge.svg)](https://github.com/aelassas/movinin/actions/workflows/containerize.yml) 
 [![loc](https://raw.githubusercontent.com/aelassas/movinin/refs/heads/loc/badge.svg)](https://github.com/aelassas/movinin/actions/workflows/loc.yml)
 [![live demo](https://img.shields.io/badge/live-demo-brightgreen)](https://movinin.dynv6.net:3004/)
+[![docs](https://img.shields.io/badge/docs-wiki-brightgreen)](https://github.com/aelassas/movinin/wiki)
 
 <!--
 [![tested with jest](https://img.shields.io/badge/tested_with-jest-brightgreen?logo=jest)](https://github.com/jestjs/jest)
@@ -26,9 +27,9 @@ https://github.com/user-attachments/assets/806cbe2d-9f49-413e-9359-2546306f9653
 
 ## Movin' In (test fork)
 
-Movin' In is an open-source and cross-platform Rental Property Management Platform with an admin panel for managing properties, customers and bookings, a frontend and a mobile app for renting properties.
+Movin' In is a Rental Property Management Platform with an admin panel for managing properties, customers and bookings, a frontend and a mobile app for renting properties.
 
-The platform supports [Stripe](https://stripe.com/global) and [PayPal](https://www.paypal.com/us/webapps/mpp/country-worldwide) payment gateways, allowing you to choose the one best suited for your country or business model. If Stripe isn't available in your region, PayPal serves as a secure and convenient alternative for accepting payments.
+The platform supports Stripe and PayPal payment gateways, allowing you to choose the one best suited for your country or business model. If Stripe isn't available in your region, PayPal serves as a secure and convenient alternative for accepting payments.
 
 Movin' In supports both single-agency and multi-agency modes. Agencies have access to an admin panel to manage their properties, customers, and bookings. Each newly created agency receives an email prompting them to register and access the system.
 
@@ -48,40 +49,46 @@ Customers can sign up via the frontend or mobile app, browse available propertie
 ## Features
 
 ### Agency & Property Management
+
 * Agency management
 * Ready for single or multiple agencies
 * Property management
-* [Flexible Time-Based Property Availability](https://github.com/aelassas/movinin/wiki/FAQ#how-to-automatically-prevent-a-property-from-being-booked-multiple-times-when-its-already-booked)
+* Flexible time-based property availability
 * Booking management
-* [Property scheduler](https://movin-in.github.io/content/screenshots/v4.5/backend-scheduler.png?raw=true)
-* [Auto-Notification System](https://github.com/aelassas/movinin/wiki/Auto%E2%80%90Notification-System)
+* Property scheduler
+* Auto-notification system
 
 ### Pricing & Payments
+
 * Payment management
-* [Multiple payment gateways supported (Stripe, PayPal)](https://github.com/aelassas/movinin/wiki/Payment-Gateways)
+* Multiple payment gateways supported: Stripe, PayPal
 * Multiple payment methods: Credit Card, PayPal, Google Pay, Apple Pay, Link, Pay Later
 
 ### Locations & Mapping
-* [Hierarchical locations with country and map integration](https://github.com/aelassas/movinin/wiki/Locations)
+
+* Hierarchical locations with country and map integration
 * Location-based search with nested location support
 * Map display for locations
 
 ### User Experience
+
 * Customer management
-* [Multiple login options](https://github.com/aelassas/movinin/wiki/Social-Login-Setup): Google, Facebook, Apple, Email
+* Multiple login options: Google, Facebook, Apple, Email
 * Multiple language support: English, French
-* [Multiple currencies support](https://github.com/aelassas/movinin/wiki/Add-New-Currency)
+* Multiple currencies support
 * Multiple pagination styles: classic (next/previous), infinite scroll
 * Push notifications
 
 ### Security & Performance
+
 * Secure against XSS, XST, CSRF, MITM, and DDoS attacks
 * Responsive admin panel and frontend
 * Native mobile app for Android and iOS (single codebase)
-* [Docker](https://www.docker.com/) support for easy deployment and a better developer experience
-* Error monitoring and performance tracing with [Sentry](https://github.com/aelassas/movinin/wiki/Setup-Sentry)
+* Docker support for easy deployment and better developer experience
+* Error monitoring and performance tracing
 
 ### Supported Platforms
+
 * iOS
 * Android
 * Web
@@ -95,9 +102,11 @@ If this project helped you, saved you time, or inspired you in any way, please c
 <a href="https://www.paypal.me/aelassaspp"><img src="https://aelassas.github.io/content/paypal-button-v2.png" alt="PayPal" width="208"></a>
 <a href="https://www.buymeacoffee.com/aelassas"><img src="https://aelassas.github.io/content/bmc-button.png" alt="Buy Me A Coffee" width="160"></a>-->
 
+<!--
 To contribute code or report issues, please read the [Contribution Guide](https://github.com/aelassas/movinin/blob/main/.github/CONTRIBUTING.md) to learn about the process, coding standards, and how to submit pull requests.
 
 If you want to customize Movin' In while keeping your fork up to date with the latest changes, check out the [Fork, Customize, and Sync](https://github.com/aelassas/movinin/wiki/Fork,-Customize,-and-Sync) guide in the Wiki.
+-->
 
 ## Live Demo
 
@@ -121,7 +130,7 @@ You can install the Android app on any Android device.
 
 Open the Camera app and point it at this code. Then tap the notification that appears.
 
-<img alt="" width="120" src="https://movin-in.github.io/content/qr-code-6.3.png">
+<img alt="" width="120" src="https://movin-in.github.io/content/qr-code-6.6.png">
 
 ### How to install the Mobile App on Android
 
@@ -133,7 +142,7 @@ Open the Camera app and point it at this code. Then tap the notification that ap
 
 You can also install the Android App by downloading the APK and installing it on any Android device.
 
-* [Download APK](https://github.com/aelassas/movinin/releases/download/v6.3/movinin-6.3.apk)
+* [Download APK](https://github.com/aelassas/movinin/releases/download/v6.6/movinin-6.6.apk)
 * Login: jdoe@movinin.io
 * Password: M00vinin
 <!--
