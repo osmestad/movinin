@@ -26,10 +26,7 @@ services:
       - mongo
 
   mi-backend:
-    build:
-      context: .
-      dockerfile: ./backend/Dockerfile
-    #env_file: ./backend/.env.docker
+    image: ghcr.io/osmestad/mi-backend:latest
     restart: always
     ports:
       - 4004:4004
@@ -41,18 +38,14 @@ services:
     network_mode: host
 
   mi-admin:
-    build:
-      context: .
-      dockerfile: ./admin/Dockerfile
+    image: ghcr.io/osmestad/mi-admin:latest
     depends_on:
       - mi-backend
     ports:
       - 3003:3003
 
   mi-frontend:
-    build:
-      context: .
-      dockerfile: ./frontend/Dockerfile
+    image: ghcr.io/osmestad/mi-frontend:latest
     depends_on:
       - mi-backend
     ports:
