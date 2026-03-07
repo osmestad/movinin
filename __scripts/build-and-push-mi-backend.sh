@@ -15,13 +15,13 @@ fi
 # Login to GitHub Container Registry
 echo "$GITHUB_TOKEN" | docker login ghcr.io -u "$GITHUB_USER" --password-stdin
 
-echo "Building and pushing Docker image for ARM64: $IMAGE_NAME"
+echo "Building and pushing Docker image for amd64: $IMAGE_NAME"
 # Ensure buildx is available
 if ! docker buildx version >/dev/null 2>&1; then
   echo "Docker Buildx is not available. Please install Docker Buildx."
   exit 1
 fi
 
-docker buildx build --platform linux/arm64 -t "$IMAGE_NAME" -f backend/Dockerfile . --push
+docker buildx build --platform linux/amd64 -t "$IMAGE_NAME" -f backend/Dockerfile . --push
 
 echo "Done."
