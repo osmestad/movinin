@@ -1,7 +1,7 @@
 services:
   mongo:
     image: mongo:latest
-    command: mongod --quiet --logpath /dev/null
+    # Removed custom command to use default entrypoint
     restart: always
     environment:
       # Provide your credentials here
