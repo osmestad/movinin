@@ -35,7 +35,6 @@ services:
     volumes:
       - cdn:/var/www/cdn/movinin
       - backend_logs:/movinin/backend/logs
-    network_mode: host
 
   mi-admin:
     image: ghcr.io/osmestad/mi-admin:latest
