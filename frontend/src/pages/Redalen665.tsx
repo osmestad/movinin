@@ -3,6 +3,12 @@ import '@/styles/background-images.css'
 
 const Redalen665 = () => {
   useEffect(() => {
+    // Inject Google Fonts
+    const fontLink = document.createElement('link')
+    fontLink.href = 'https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap'
+    fontLink.rel = 'stylesheet'
+    document.head.appendChild(fontLink)
+
     // Inject inline styles
     const styles = `
         :root {
@@ -218,6 +224,7 @@ const Redalen665 = () => {
 
     return () => {
       styleElement.remove()
+      fontLink.remove()
     }
   }, [])
 
