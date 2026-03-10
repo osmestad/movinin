@@ -267,10 +267,12 @@ const Redalen665 = () => {
           <div className="intro-grid">
             <div className="intro-text">
               <span className="section-label">Om Redalen 665</span>
-              <h2>Et vakkert hyttetun i <em>skogen</em></h2>
-              <p>Redalen 665 ligger i Krødsherad, omgitt av skog og med utsikt mot Norefjell og Høgevarde. Her leier dere hele tunet for dere selv – med plass til å puste ut, være sammen og skape minner.</p>
-              <p>Tunet består av hovedhus, hytte, stabbur og låve – alt tilgjengelig bare for dere. Enten dere er en familie som vil ha en skikkelig sommerhelg, en vennegjeng som feirer noe stort, en bedrift som vil tenke nytt, eller et par som drømmer om et intimt bryllupsselskap – her er det rom for det.</p>
-              <p>Vi leier ut både med og uten vertskap. Foretrekker dere å ha tunet helt for dere selv, ordner dere det selv. Ønsker dere noen som kjenner stedet, kan hjelpe med planlegging og er tilgjengelig underveis – er Cecilie der. Det er opp til dere.</p>
+              <h2>Et vakkert hyttetun i <em>skogens ro</em></h2>
+              <p>Redalen 665 er et idyllisk hyttetun i Krødsherad, med utsikt mot Norefjell og Høgevarde. Her møter du ro, stillhet og skog – bare en drøy time fra Oslo.</p>
+                
+<p>Tunet består av et hovedhus fra 1890, en laftet hytte, et sjarmerende stabbur og en grillhytte med utsikt mot Redalstjernet. Vi leier kun ut til én gruppe av gangen – enten dere er to eller tjue, har dere hele stedet for dere selv.
+</p>
+              
               <p>Naturen er nærmeste nabo. Fjellturer, stille morgener og bålkvelder venter rett utenfor døren.</p>
               <div className="divider"><span>Vi tilbyr</span></div>
               <div className="tag-cloud">
