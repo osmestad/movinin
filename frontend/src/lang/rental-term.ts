@@ -22,6 +22,16 @@ const strings = new LocalizedStrings({
     DAY: 'day',
     YEAR: 'year',
   },
+  no: {
+    MONTHLY: 'Månedlig',
+    WEEKLY: 'Ukentlig',
+    DAILY: 'Daglig',
+    YEARLY: 'Årlig',
+    MONTH: 'måned',
+    WEEK: 'uke',
+    DAY: 'dag',
+    YEAR: 'år',
+  },
 })
 
 langHelper.setLanguage(strings)

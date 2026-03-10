@@ -19,6 +19,14 @@ const strings = new LocalizedStrings({
     STATUS_TITLE: `${env.WEBSITE_NAME} Booking Confirmation`,
     STATUS_MESSAGE: 'Check your mailbox and follow the steps described in the booking confirmation email to book your property. You will find property address and Google Maps link in the confirmation email.',
   },
+  no: {
+    CONGRATULATIONS: 'Gratulerer!',
+    SUCCESS: 'Betalingen din ble gjennomført. Vi sendte deg en bekreftelses-e-post.',
+    SUCCESS_PAY_LATER: 'Din reservasjon ble gjennomført. Vi sendte deg en bekreftelses-e-post.',
+    ERROR: 'Noe gikk galt! Prøv igjen senere',
+    STATUS_TITLE: `${env.WEBSITE_NAME} Reservasjonsbekreftelse`,
+    STATUS_MESSAGE: 'Sjekk postboksen din og følg trinnene beskrevet i reservasjonsbekreftelses-e-posten for å reservere eiendommen din. Du vil finne eiendomsadressen og Google Maps-lenken i bekreftelses-e-posten.',
+  },
 })
 
 langHelper.setLanguage(strings)

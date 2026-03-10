@@ -24,6 +24,17 @@ const strings = new LocalizedStrings({
     DELETE_NOTIFICATION: 'Are you sure you want to delete this notification?',
     DELETE_NOTIFICATIONS: 'Are you sure you want to delete these notifications?',
   },
+  no: {
+    EMPTY_LIST: 'Ingen varslinger',
+    VIEW: 'Vis',
+    MARK_AS_READ: 'Merk som lest',
+    MARK_AS_UNREAD: 'Merk som ulest',
+    MARK_ALL_AS_READ: 'Merk alt som lest',
+    MARK_ALL_AS_UNREAD: 'Merk alt som ulest',
+    DELETE_ALL: 'Slett alt',
+    DELETE_NOTIFICATION: 'Er du sikker på at du vil slette dette varslingen?',
+    DELETE_NOTIFICATIONS: 'Er du sikker på at du vil slette disse varslingene?',
+  },
 })
 
 langHelper.setLanguage(strings)

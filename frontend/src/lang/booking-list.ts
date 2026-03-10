@@ -28,6 +28,19 @@ const strings = new LocalizedStrings({
     CANCEL_BOOKING: 'Are you sure you want to cancel this booking?',
     CANCEL_BOOKING_REQUEST_SENT: 'Your cancel request has been submited. We will contact you to finalize the cancellation procedure.',
   },
+  no: {
+    PROPERTY: 'Eiendom',
+    AGENCY: 'Byrå',
+    PRICE: 'Pris',
+    STATUS: 'Status',
+    EMPTY_LIST: 'Ingen reservasjoner.',
+    VIEW: 'Se denne reservasjonen',
+    DAYS: 'Dager',
+    COST: 'KOSTNADER',
+    CANCEL: 'Avbryt denne reservasjonen',
+    CANCEL_BOOKING: 'Er du sikker på at du vil avbryte denne reservasjonen?',
+    CANCEL_BOOKING_REQUEST_SENT: 'Din avbrytelsesforespørsel er mottatt. Vi vil kontakte deg for å fullføre avbrytelsen.',
+  },
 })
 
 langHelper.setLanguage(strings)

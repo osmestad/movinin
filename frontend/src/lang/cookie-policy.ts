@@ -103,6 +103,56 @@ We may update this Cookie Policy from time to time to reflect changes in technol
 If you have any questions about this Cookie Policy, please contact us at: ${env.CONTACT_EMAIL}
     `,
   },
+  no: {
+    TITLE: 'Informasjonskapselpolicy',
+    POLICY: `
+Denne informasjonskapselpolicyen forklarer hvordan ${env.WEBSITE_NAME} ("vi," "oss," eller "v\u00e5r") bruker informasjonskapsler og lignende teknologier p\u00e5 nettstedet v\u00e5rt. Ved \u00e5 bruke nettstedet v\u00e5rt, samtykker du til bruk av informasjonskapsler i samsvar med denne policyen.
+
+1. Hva er informasjonskapsler?
+
+Informasjonskapsler er sm\u00e5 tekstfiler som lagres p\u00e5 enheten din (datamaskin, nettbrett, smarttelefon) n\u00e5r du bes\u00f8ker et nettsted. De hjelper til med \u00e5 forbedre surfeopplevelsen din ved \u00e5 huske dine preferanser og gi relevant informasjon eller tjenester.
+
+2. Typer informasjonskapsler vi bruker
+
+Vi bruker f\u00f8lgende typer informasjonskapsler:
+
+- N\u00f8dvendige informasjonskapsler: Disse informasjonkasplene er essensielle for at nettstedet skal fungere og kan ikke sl\u00e5s av i systemene v\u00e5re.
+- Ytelses-informasjonskapsler: Disse informasjonkasplene hjelper oss med \u00e5 forst\u00e5 hvordan bes\u00f8kende samhandler med nettstedet v\u00e5rt ved \u00e5 samle og rapportere informasjon anonym.
+- Funksjonelle informasjonskapsler: Disse informasjonkasplene gj\u00f8r det mulig for nettstedet \u00e5 tilby forbedret funksjonalitet og personalisering.
+- M\u00e5lretting/Reklame-informasjonskapsler: Disse informasjonkasplene brukes til \u00e5 levere relevante annonser og spore resultatene av annonser.
+
+3. Hvordan bruker vi informasjonskapsler?
+
+Vi bruker informasjonskapsler til \u00e5:
+
+- Forbedre funksjonalitet og ytelse p\u00e5 nettstedet.
+- Analysere nettstedsbruk for \u00e5 forbedre tjenestene v\u00e5re.
+- Personalisere opplevelsen din og huske dine preferanser.
+- Levere m\u00e5lrettede annonser basert p\u00e5 interessene dine.
+
+4. Administrering av informasjonskapsel-preferanser
+
+Du kan administrere informasjonskapsel-preferansene dine n\u00e5r som helst ved \u00e5 justere innstillingerne i nettleseren din. De fleste nettlesere lar deg:
+
+- Blokkere alle informasjonskapsler.
+- Slette eksisterende informasjonskapsler.
+- Motta varsler n\u00e5r en informasjonskapsel angis.
+
+Merk at deaktivering av informasjonskapsler kan p\u00e5virke opplevelsen din p\u00e5 nettstedet v\u00e5rt.
+
+5. Informasjonskapsler fra tredjepart
+
+Vi kan tillate leverand\u00f8rer fra tredjepart \u00e5 plassere informasjonskapsler p\u00e5 nettstedet v\u00e5rt for \u00e5 analysere trafikk, tilby reklametjenster eller aktivere tilleggsfunksjoner. Disse informasjonkasplene er underlagt tredjepartens privatvernpolicyer.
+
+6. Endringer i denne informasjonskapselpolicyen
+
+Vi kan oppdatere denne informasjonskapselpolicyen fra tid til annen for \u00e5 reflektere endringer i teknologi, lovgivning eller praksis v\u00e5r. Den oppdaterte policyen vil bli publisert p\u00e5 denne siden med en revidert \"Sist oppdatert\"-dato.
+
+7. Kontakt oss
+
+Hvis du har sp\u00f8rsm\u00e5l om denne informasjonskapselpolicyen, vennligst kontakt oss p\u00e5: ${env.CONTACT_EMAIL}
+    `,
+  },
 })
 
 langHelper.setLanguage(strings)

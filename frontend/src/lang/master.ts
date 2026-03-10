@@ -14,6 +14,12 @@ const strings = new LocalizedStrings({
     VALIDATION_EMAIL_SENT: 'Validation email sent.',
     VALIDATION_EMAIL_ERROR: 'An error occurred while sending validation email.',
   },
+  no: {
+    VALIDATE_EMAIL: 'En valideringse-post har blitt sendt til e-postadressen din. Vennligst sjekk postboksen din og valider kontoen din ved å klikke på lenken i e-posten. Den vil utløpe etter en dag. Hvis du ikke mottok valideringse-posten, klikk på send på nytt.',
+    RESEND: 'Send på nytt',
+    VALIDATION_EMAIL_SENT: 'Valideringse-post sendt.',
+    VALIDATION_EMAIL_ERROR: 'En feil oppstod ved sending av valideringse-post.',
+  },
 })
 
 langHelper.setLanguage(strings)

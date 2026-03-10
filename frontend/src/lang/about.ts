@@ -21,6 +21,15 @@ const strings = new LocalizedStrings({
     CONTENT2: "Enjoy unmatched convenience, reliability, and value with our premier property rental service. From effortless bookings to high-quality properties, we're your trusted travel partner.",
     FIND_DEAL: 'Find Deal',
   },
+  no: {
+    TITLE1: `${env.WEBSITE_NAME} - Din Ledende Eiendomsutleietjeneste`,
+    SUBTITLE1: 'Din Pålitelige Partner for Eiendomsutleie',
+    CONTENT1: `Hos ${env.WEBSITE_NAME}, forstår vi at hver reise er unik. Vi er forpliktet til å gi kundene våre et mangfold av eiendommer som oppfyller alle reisebehov. Enten du utforsker en by, pendles for arbeid, eller søker eventyr, sikrer våre pålitelige eiendomsutleietjenester at ditt eventyr begynner smidig. Vår misjon er å levere eksepsjonell kundeservice som gjør opplevelsen din behagelig og stressfri. Med konkurransedyktige priser, et mangfold av godt vedlikeholdte eiendommer, og et dedikert team klart til å hjelpe deg, streber vi etter å være din pålitelige partner på veien. Velg ${env.WEBSITE_NAME} for alle dine eiendomsutleiebehov og opplev friheten til å utforske i ditt eget tempo.`,
+    TITLE2: `Hvorfor Velge ${env.WEBSITE_NAME}`,
+    SUBTITLE2: 'Opplev Utmerkethet på Hver Reise',
+    CONTENT2: 'Nyt uovertruffen bekvemmelighet, pålitelighet og verdi med vår ledende eiendomsutleietjeneste. Fra enkle bestillinger til høykvalitetseiendommer er vi din pålitelige reisepartner.',
+    FIND_DEAL: 'Finn Tilbud',
+  },
 })
 
 langHelper.setLanguage(strings)

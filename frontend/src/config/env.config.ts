@@ -16,6 +16,11 @@ const LANGUAGES = [
     countryCode: 'fr',
     label: 'Français',
   },
+  {
+    code: 'no',
+    countryCode: 'no',
+    label: 'Norsk',
+  },
 ]
 
 type Currency = { code: string, symbol: string }

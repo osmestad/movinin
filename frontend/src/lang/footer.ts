@@ -37,6 +37,22 @@ const strings = new LocalizedStrings({
     PRIVACY_POLICY: 'Privacy Policy',
     COOKIE_POLICY: 'Cookie Policy',
   },
+  no: {
+    COPYRIGHT_PART1,
+    COPYRIGHT_PART2: '. Alle rettigheter reservert.',
+
+    CORPORATE: 'Om',
+    ABOUT: 'Om Oss',
+    TOS: 'Vilkår for bruk',
+    RENT: 'Leie en eiendom',
+    AGENCIES: 'Byråer',
+    LOCATIONS: 'Destinasjoner',
+    SUPPORT: 'Støtte',
+    CONTACT: 'Kontakt',
+    SECURE_PAYMENT: `100% sikker betaling med ${env.WEBSITE_NAME}`,
+    PRIVACY_POLICY: 'Personvernpolicy',
+    COOKIE_POLICY: 'Informasjonskapselpolicy',
+  },
 })
 
 langHelper.setLanguage(strings)

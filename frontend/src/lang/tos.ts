@@ -105,6 +105,62 @@ If you have any questions regarding these Terms of Service, please contact us at
 By using our services, you acknowledge that you have read and understood these Terms of Service and agree to be bound by them.
     `,
   },
+  no: {
+    TITLE: 'Vilk\u00e5r for bruk',
+    TOS: `
+Velkommen til ${env.WEBSITE_NAME}! Ved \u00e5 f\u00e5 tilgang til nettstedet v\u00e5rt og bruke tjenestene v\u00e5re, samtykker du til \u00e5 overholde og v\u00e6re bundet av f\u00f8lgende vilk\u00e5r for bruk. Hvis du ikke godtar disse vilk\u00e5rene, vennligst ikke bruk tjenestene v\u00e5re.
+
+
+1. Aksept av vilk\u00e5r
+
+Ved \u00e5 f\u00e5 tilgang til eller bruke tjenestene v\u00e5re, bekrefter du at du har lest, forst\u00e5tt og godtar disse vilk\u00e5rene for bruk og personvernpolicyen v\u00e5r.
+
+
+2. Bruk av tjenestene v\u00e5re
+
+Du er enig i \u00e5 bruke tjenestene v\u00e5re kun for lovlige form\u00e5l og p\u00e5 en m\u00e5te som ikke krenkelse rettigheten til andre, begrenser eller hindrer noens bruk av tjenestene v\u00e5re. Dette inkluderer overholdelse av alle gjeldende lover og regler.
+
+
+3. Reservasjoner og betalinger
+
+N\u00e5r du foretar en reservasjon med ${env.WEBSITE_NAME}, samtykker du til \u00e5 gi n\u00f8yaktig og fullstendig informasjon. Alle betalinger m\u00e5 foretas gjennom systemet v\u00e5rt for sikker betaling. N\u00e5r betalingen er gjennomf\u00f8rt, vil du motta en bekreftelse av reservasjonen din.
+
+
+4. Kanselleringspolicy
+
+Avbestillinger som foretas 24 timer f\u00f8r utleidatoen kan v\u00e6re berettiget til full refusjon. Avbestillinger som foretas mindre enn 24 timer f\u00f8r utleidatoen kan medf\u00f8re et avbestillingsgebyr. Vennligst se kanselleringspolicyen v\u00e5r for detaljert informasjon.
+
+
+5. Utleievilk\u00e5r
+
+Alle leier er underlagt vilk\u00e5rene for leie v\u00e5re, som inkluderer, men er ikke begrenset til aldersrestrikasjoner og forsikringsforpliktelser. Du er ansvarlig for \u00e5 sikre at du oppfyller alle krav f\u00f8r du foretar en reservasjon.
+
+
+6. Ansvarsbegrensning
+
+${env.WEBSITE_NAME} skal ikke v\u00e6re ansvarlig for noen indirekte, tilfeldig eller konsekvensiell skade som oppst\u00e5r fra din bruk av tjenestene v\u00e5re. Under ingen omstendigheter skal det totale ansvaret v\u00e5rt overstige bel\u00f8pet du har betalt for tjenestene.
+
+
+7. Endringer av vilk\u00e5r
+
+Vi forbeholder oss retten til \u00e5 endre disse vilk\u00e5rene for bruk n\u00e5r som helst. Eventuelle endringer vil tre i kraft umiddelbart etter publisering p\u00e5 nettstedet v\u00e5rt. Fortsatt bruk av tjenestene v\u00e5re etter eventuelle endringer utgj\u00f8r din godkjennelse av de nye vilk\u00e5rene.
+
+
+8. Gjeldende lov
+
+Disse vilk\u00e5rene for bruk skal st\u00f8ttes og tolkes i samsvar med lovene. Eventuelle tvister som oppst\u00e5r fra disse vilk\u00e5rene skal avgj\u00f8res i domstolene.
+
+
+9. Kontaktinformasjon
+
+Hvis du har sp\u00f8rsm\u00e5l om disse vilk\u00e5rene for bruk, vennligst kontakt oss p\u00e5 ${env.CONTACT_EMAIL}. Vi er her for \u00e5 hjelpe deg med eventuelle sp\u00f8rsm\u00e5l knyttet til tjenestene v\u00e5re.
+
+
+10. Anerkjennelse
+
+Ved \u00e5 bruke tjenestene v\u00e5re, anerkjenner du at du har lest og forst\u00e5tt disse vilk\u00e5rene for bruk og samtykker til \u00e5 v\u00e6re bundet av dem.
+    `,
+  },
 })
 
 langHelper.setLanguage(strings)

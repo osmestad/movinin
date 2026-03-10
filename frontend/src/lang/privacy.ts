@@ -120,6 +120,60 @@ If you have any questions about this Privacy Policy or our data practices, pleas
 By using our services, you acknowledge that you have read and understood this Privacy Policy and agree to its terms.
     `,
   },
+  no: {
+    TITLE: 'Personvernpolicy',
+    PRIVACY_POLICY: `
+Ditt personvern er viktig for oss hos ${env.WEBSITE_NAME}. Denne personvernpolicyen beskriver hvordan vi samler inn, bruker og beskytter informasjonen din når du bruker nettstedet vårt og tjenestene. Ved å få tilgang til tjenestene våre, samtykker du til praksisen beskrevet i denne policyen.
+
+1. Informasjon vi samler inn
+
+Vi samler inn informasjon fra deg når du registrerer deg på nettstedet vårt, gjør en bestilling, eller samhandler med tjenestene våre. Informasjonen vi kan samle inn inkluderer:
+
+Navn
+E-postadresse
+Telefonnummer
+Betalingsinformasjon
+Eiendomspreferanser
+Du kan besøke nettstedet vårt anonymt, men visse funksjoner kan være begrenset.
+
+2. Hvordan vi bruker informasjonen din
+
+Informasjonen din kan brukes på følgende måter:
+
+For å behandle reservasjoner og betalinger
+For å forbedre kundeservicen
+For å sende periodiske e-poster angående bestillinger eller andre produkter og tjenester
+For å svare på henvendelser og støtteforespørsler
+
+3. Hvordan vi beskytter informasjonen din
+
+Vi implementerer en rekke sikkerhetstiltak for å opprettholde sikkerheten til personlig informasjon. All sensitiv informasjon overføres via sikre servere og er bare tilgjengelig for autorisert personell. Vi lagrer ikke kredittkortinformasjonen din på serverene våre.
+
+4. Deling av informasjon
+
+Vi selger, bytter eller overfører ikke personlig identifiserbar informasjon til eksterne parter, bortsett fra fra pålitelige partnere som hjelper oss med å drive nettstedet, gjennomføre virksomheten eller service deg, så lenge disse partene samtykker til å holde denne informasjonen konfidensiell. Vi kan også frigi informasjonen din når vi mener at frigivelse er passende for å overholde loven, håndheve nettstedets retningslinjer, eller beskytting av rettigheten eller andres rettigheter, eiendom eller sikkerhet.
+
+5. Barns personvern
+
+Vi overholder loven om beskyttelse av barns personvern på nettet (COPPA). Tjenestene våre er ikke rettet mot barn under 13 år, og vi samler ikke bevisst personlig informasjon fra barn under 13 år. Hvis vi blir klar over at vi har samlet personlig informasjon fra barn under 13 år, vil vi ta steg for å slette slik informasjon.
+
+6. Endringer av personvernpolicyen vår
+
+Vi kan oppdatere denne personvernpolicyen i fremtiden. Vi vil informere deg om eventuelle endringer ved å publisere den oppdaterte personvernpolicyen på denne siden.
+
+7. Dine rettigheter
+
+Du har rett til å be om tilgang til personlig informasjon vi har om deg, be om korreksjon av eventuelle unoyaktigheter, og be om sletting av personlig informasjon din, med mindre visse unntak gjelder. For å utøve disse rettighetene, kontakt oss ved hjelp av informasjonen som er gitt nedenfor.
+
+8. Kontakt oss
+
+Hvis du har spørsmål om denne personvernpolicyen eller datapraksis vår, kontakt oss på ${env.CONTACT_EMAIL}. Vi er forpliktet til å ta tak i dine bekymringer og beskytte personvernet ditt.
+
+9. Anerkjennelse
+
+Ved å bruke tjenestene våre, anerkjenner du at du har lest og forstått denne personvernpolicyen og samtykker til vilkårene.
+    `,
+  },
 })
 
 langHelper.setLanguage(strings)

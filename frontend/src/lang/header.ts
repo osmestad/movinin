@@ -32,6 +32,21 @@
       PRIVACY_POLICY: 'Privacy Policy',
       COOKIE_POLICY: 'Cookie Policy',
     },
+    no: {
+      SIGN_IN: 'Logg inn',
+      HOME: 'Hjem',
+      BOOKINGS: 'Reservasjoner',
+      ABOUT: 'Om',
+      TOS: 'Vilkår for bruk',
+      CONTACT: 'Kontakt',
+      LANGUAGE: 'Språk',
+      SETTINGS: 'Innstillinger',
+      SIGN_OUT: 'Logg ut',
+      AGENCIES: 'Byråer',
+      LOCATIONS: 'Destinasjoner',
+      PRIVACY_POLICY: 'Personvernpolicy',
+      COOKIE_POLICY: 'Informasjonskapselpolicy',
+    },
   })
 
   langHelper.setLanguage(strings)

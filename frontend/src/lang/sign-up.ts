@@ -12,6 +12,11 @@ const strings = new LocalizedStrings({
     SIGN_UP: 'Register',
     SIGN_UP_ERROR: 'An error occurred during sign up.',
   },
+  no: {
+    SIGN_UP_HEADING: 'Registrer deg',
+    SIGN_UP: 'Registrer deg',
+    SIGN_UP_ERROR: 'En feil oppstod under registreringen.',
+  },
 })
 
 langHelper.setLanguage(strings)
