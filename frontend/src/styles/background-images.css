@@ -1,0 +1,7 @@
+/* Background images for Redalen665 */
+
+.bg-image-1 { 
+    background-image: url('/images/redalen-image-15.png'); 
+    background-size: cover; 
+    background-position: center; 
+}
