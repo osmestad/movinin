@@ -34,6 +34,22 @@ const strings = new LocalizedStrings({
     SIGN_OUT: 'Sign out',
     COUNTRIES: 'Countries',
   },
+  no: {
+    DASHBOARD: 'Instrumentér',
+    SCHEDULER: 'Eiendom Planlegger',
+    HOME: 'Hjem',
+    AGENCIES: 'Byråer',
+    LOCATIONS: 'Lokasjoner',
+    PROPERTIES: 'Eiendommer',
+    USERS: 'Brukere',
+    ABOUT: 'Om',
+    TOS: 'Vilkår for Tjenesten',
+    CONTACT: 'Kontakt',
+    LANGUAGE: 'Språk',
+    SETTINGS: 'Innstillinger',
+    SIGN_OUT: 'Logg ut',
+    COUNTRIES: 'Land',
+  },
 })
 
 langHelper.setLanguage(strings)

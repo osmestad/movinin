@@ -12,6 +12,11 @@ const strings = new LocalizedStrings({
     VIEW_AGENCY: 'View agency profile',
     DELETE_AGENCY: 'Are you sure you want to delete this agency and all its data?',
   },
+  no: {
+    EMPTY_LIST: 'Ingen byråer.',
+    VIEW_AGENCY: 'Vis byrå profil',
+    DELETE_AGENCY: 'Er du sikker på at du vil slette dette byrået og all dets data?',
+  },
 })
 
 langHelper.setLanguage(strings)

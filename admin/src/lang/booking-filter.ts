@@ -8,6 +8,9 @@ const strings = new LocalizedStrings({
   en: {
     LOCATION: 'location',
   },
+  no: {
+    LOCATION: 'lokasjon',
+  },
 })
 
 langHelper.setLanguage(strings)

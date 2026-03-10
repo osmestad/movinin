@@ -13,6 +13,12 @@ const strings = new LocalizedStrings({
         AVAILABLE_INFO: 'This property is available.',
         UNAVAILABLE: 'Unavailable',
         UNAVAILABLE_INFO: 'This property is unavailable.',
+    },
+    no: {
+        AVAILABLE: 'Tilgjengelig',
+        AVAILABLE_INFO: 'Denne eiendommen er tilgjengelig.',
+        UNAVAILABLE: 'Utilgjengelig',
+        UNAVAILABLE_INFO: 'Denne eiendommen er ikke tilgjengelig.',
     }
 })
 

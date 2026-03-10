@@ -18,6 +18,14 @@ const strings = new LocalizedStrings({
     COUNTRY: 'Country',
     PARENT_LOCATION: 'Parent Location',
   },
+  no: {
+    NEW_LOCATION_HEADING: 'Ny lokasjon',
+    LOCATION_NAME: 'Lokasjon',
+    INVALID_LOCATION: 'Denne lokasjonen finnes allerede.',
+    LOCATION_CREATED: 'Lokasjon opprettet successfully.',
+    COUNTRY: 'Land',
+    PARENT_LOCATION: 'Overordnet Lokasjon',
+  },
 })
 
 langHelper.setLanguage(strings)

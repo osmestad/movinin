@@ -34,6 +34,22 @@ const strings = new LocalizedStrings({
     DAYS: 'Days',
     COST: 'COST',
   },
+  no: {
+    PROPERTY: 'Eiendom',
+    AGENCY: 'Byrå',
+    RENTER: 'Leietaker',
+    PRICE: 'Pris',
+    STATUS: 'Status',
+    UPDATE_SELECTION: 'Rediger utvalg',
+    DELETE_SELECTION: 'Slett utvalg',
+    UPDATE_STATUS: 'Statusendring',
+    NEW_STATUS: 'Ny status',
+    DELETE_BOOKING: 'Er du sikker på at du vil slette denne reservasjonen?',
+    DELETE_BOOKINGS: 'Er du sikker på at du vil slette de valgte reservasjonene?',
+    EMPTY_LIST: 'Ingen reservasjoner.',
+    DAYS: 'Dager',
+    COST: 'TOTAL',
+  },
 })
 
 langHelper.setLanguage(strings)

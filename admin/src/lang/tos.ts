@@ -105,6 +105,62 @@ If you have any questions regarding these Terms of Service, please contact us at
 By using our services, you acknowledge that you have read and understood these Terms of Service and agree to be bound by them.
     `,
   },
+  no: {
+    TITLE: 'Vilkår for Tjenesten',
+    TOS: `
+Velkommen til ${env.WEBSITE_NAME}! Ved å få tilgang til nettstedet vårt og ved å bruke tjenestene våre, samtykker du til å etterfølge og være bundet av følgende vilkår for tjenesten. Hvis du ikke godtar disse vilkårene, vennligst ikke bruk tjenestene våre.
+
+
+1. Aksept av Vilkår
+
+Ved å få tilgang til eller bruke tjenestene våre, bekrefter du at du har lest, forstått og godtar disse vilkårene for tjenesten og personvernpolicyen vår.
+
+
+2. Bruk av Tjenestene Våre
+
+Du godtar å bruke tjenestene våre kun for lovlig formål og på en måte som ikke krenkber rettighetene til andre, begrenser eller hindrer andres bruk av tjenestene våre. Dette inkluderer overholdelse av alle gjeldende lover og regler.
+
+
+3. Reservasjoner og Betalinger
+
+Når du foretar en reservasjon hos ${env.WEBSITE_NAME}, godtar du å gitt nøyaktig og fullstendig informasjon. Alle betalinger må gjøres gjennom systemet vårt for sikker betaling. Når betalingen er gjennomført, mottar du en bekrftelse av reservasjonen din.
+
+
+4. Avlysningspolicy
+
+Avlysninger foretatt 24 timer før utleidatoen kan være berettiget til full refusjon. Avlysninger foretatt mindre enn 24 timer før utleidatoen kan medføre avlysningsgebyr. Vennligst se vår avlysningspolicy for detaljert informasjon.
+
+
+5. Utleievilkår
+
+Alle utleier er underlagt våre utleievilkår, som inkluderer, men er ikke begrenset til, aldersrestriksjoner og forsikringsplikt. Du er ansvarlig for å sikre at du oppfyller alle kravene før du foretar en reservasjon.
+
+
+6. Ansvarsbegrensning
+
+${env.WEBSITE_NAME} skal ikke være ansvarlig for indirekte, tilfeldige eller følgeskader som oppstår fra bruken av tjenestene våre. Under ingen omstendigheter skal vårt totale ansvar overstige beløpet som betales av deg for tjenestene.
+
+
+7. Endringer av Vilkår
+
+Vi forbeholder oss retten til å endre disse vilkårene for tjenesten når som helst. Eventuelle endringer trer i kraft umiddelbar etter publisering på nettstedet vårt. Din fortsatte bruk av tjenestene våre etter endringer utgjør din aksept av de nye vilkårene.
+
+
+8. Gjeldende Lov
+
+Disse vilkårene for tjenesten skal styres av og tolkes i samsvar med gjeldende lovgivning. Eventuelle tvister som oppstår fra disse vilkårene skal løses i domstolene.
+
+
+9. Kontaktinformasjon
+
+Hvis du har spørsmål om disse vilkårene for tjenesten, vennligst kontakt oss på ${env.CONTACT_EMAIL}. Vi er her for å hjelpe deg med alle spørsmål relatert til tjenestene våre.
+
+
+10. Anerkjennelse
+
+Ved å bruke tjenestene våre, anerkjenner du at du har lest og forstått disse vilkårene for tjenesten og godtar å være bundet av dem.
+    `,
+  },
 })
 
 langHelper.setLanguage(strings)

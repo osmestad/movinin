@@ -15,6 +15,12 @@ const strings = new LocalizedStrings({
     AGENCY_IMAGE_SIZE_ERROR: `The image must be in the format ${env.AGENCY_IMAGE_WIDTH}x${env.AGENCY_IMAGE_HEIGHT}`,
     RECOMMENDED_IMAGE_SIZE: `Recommended image size: ${env.AGENCY_IMAGE_WIDTH}x${env.AGENCY_IMAGE_HEIGHT}`,
   },
+  no: {
+    CREATE_AGENCY_HEADING: 'Nytt byrå',
+    INVALID_AGENCY_NAME: 'Dette byrået finnes allerede.',
+    AGENCY_IMAGE_SIZE_ERROR: `Bildet må være i formatet ${env.AGENCY_IMAGE_WIDTH}x${env.AGENCY_IMAGE_HEIGHT}`,
+    RECOMMENDED_IMAGE_SIZE: `Anbefalt bildestørrelse: ${env.AGENCY_IMAGE_WIDTH}x${env.AGENCY_IMAGE_HEIGHT}`,
+  },
 })
 
 langHelper.setLanguage(strings)
