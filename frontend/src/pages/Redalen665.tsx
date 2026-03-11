@@ -232,7 +232,7 @@ const Redalen665 = () => {
     <div>
       <nav>
         <a href="#" className="nav-brand">
-          <img src="/images/redalen-image-13.png" alt="Redalen 665" /></a>
+          <img src="/images/redalen-logo.png" alt="Redalen 665" /></a>
         <ul>
           <li><a href="#om">Om stedet</a></li>
           <li><a href="#laven">Låven</a></li>
@@ -503,7 +503,7 @@ const Redalen665 = () => {
 
       <section className="cta-section" id="kontakt">
         <div className="container">
-          <img src="/images/redalen-logo-1.png" alt="Redalen 665" className="logo-mark" />
+          <img src="/images/redalen-logo.png" alt="Redalen 665" className="logo-mark" />
             <h2>Klar for å <em>planlegge?</em></h2>
             <p>Fortell oss hvem dere er og hva dere ser for dere, så hører dere fra oss innen én arbeidsdag.</p>
             <a href="/cdn-cgi/l/email-protection#1a6a75696e5a687f7e7b767f742c2c2f347475" className="btn">Send en forespørsel</a>
@@ -512,7 +512,7 @@ const Redalen665 = () => {
       </section>
 
       <footer>
-        <img src="/images/redalen-logo-2.png" alt="Redalen 665" />
+        <img src="/images/redalen-logo.png" alt="Redalen 665" />
           <p>Redalen 665 · Krødsherad · </p>
       </footer>
     </div>
