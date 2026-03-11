@@ -1,13 +1,13 @@
 :root {
   --dark: #1a2310;
-  --forest: #2C3A1E;
+  --forest: #1A412F; /* new */
   --moss: #3d5228;
   --sage: #7A8F62;
-  --cream: #F7F3EC;
+  --cream: #F0EADE; /* new */
   --warm: #EDE4D0;
   --gold: #8faa6a;
   --text: #1a2310;
-  --muted: #5a4e38;
+  --muted: #84472A; /* earth */ /* new */
   --border: rgba(63,82,40,0.15);
 }
 
@@ -40,7 +40,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 0.85rem 3.5rem;
-  background: rgba(247, 243, 236, 0.97);
+  background: var(--cream);
   border-bottom: 1px solid var(--border);
   backdrop-filter: blur(8px);
 }
