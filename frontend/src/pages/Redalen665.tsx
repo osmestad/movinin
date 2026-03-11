@@ -21,10 +21,8 @@ const Redalen665 = () => {
           <img src="/images/redalen-logo.png" alt="Redalen 665" /></a>
         <ul>
           <li><a href="#om">Om stedet</a></li>
-          <li><a href="#laven">Låven</a></li>
-          <li><a href="#sommer">Sommer</a></li>
-          <li><a href="#rom">Overnatting</a></li>
-          <li><a href="#praktisk">Praktisk</a></li>
+          <li><a href="#overnatting">Overnatting</a></li>
+          <li><a href="#arrangement">Arrangement</a></li>
           <li><a href="#kontakt" className="nav-cta">Ta kontakt</a></li>
         </ul>
       </nav>
@@ -34,12 +32,12 @@ const Redalen665 = () => {
         <div className="hero-bg"></div>
         <div className="hero-overlay"></div>
         <div className="hero-content">
-          <h1>Et sted å komme til – og komme tilbake til</h1>
+          <h1>Kom inn på tunet. Pust ut.</h1>
           <div className="hero-pills">
             <span>Hyttetun i Krødsherad</span>
-            <span>Team & ledersamlinger</span>
-            <span>Familieopphold</span>
+            <span>Team og ledersamlinger</span>
             <span>Tilrettelagt ferie</span>
+            <span>Leie hele stedet</span>
           </div>
         </div>
       </section>
@@ -50,23 +48,20 @@ const Redalen665 = () => {
           <div className="intro-grid">
             <div className="intro-text">
               <span className="section-label">Om Redalen 665</span>
-              <h2>Et vakkert hyttetun i <em>skogens ro</em></h2>
+              <h2>Et vakkert hyttetun med <em>skogens ro</em></h2>
               <p>Redalen 665 er et idyllisk hyttetun i Krødsherad, med utsikt mot Norefjell og Høgevarde. Her møter du ro, stillhet og skog – bare en drøy time fra Oslo.</p>
                 
-<p>Tunet består av et hovedhus fra 1890, en laftet hytte, et sjarmerende stabbur og en grillhytte med utsikt mot Redalstjernet. Vi leier kun ut til én gruppe av gangen – enten dere er to eller tjue, har dere hele stedet for dere selv.
+<p>Tunet består av et hovedhus fra 1890, en laftet hytte, et sjarmerende stabbur og en grillhytte med utsikt mot Redalstjernet.
 </p>
               
-              <p>Naturen er nærmeste nabo. Fjellturer, stille morgener og bålkvelder venter rett utenfor døren.</p>
+              <p>Vi leier ut hele stedet samlet, eller delt –– etter behov. Men, alltid til kun én av gangen. I tillegg til utleie, fasiliterer vi bedriftssamlinger og er med å arrangere private selskaper. </p>
               <div className="divider"><span>Vi tilbyr</span></div>
               <div className="tag-cloud">
                 <span className="tag">Teamsamlinger</span>
                 <span className="tag">Workshops</span>
-                <span className="tag">Familieturer</span>
-                <span className="tag">Yoga</span>
-                <span className="tag">Badstue</span>
-                <span className="tag">Blomsterbinding</span>
-                <span className="tag">Bryllup</span>
-                <span className="tag">Konfirmasjon</span>
+                <span className="tag">Tilrettelagte ferier</span>
+                <span className="tag">Intime Bryllup</span>
+                <span className="tag">Konfirmasjonsfeiring</span>
                 <span className="tag">Slektstreff</span>
               </div>
             </div>
@@ -81,33 +76,31 @@ const Redalen665 = () => {
       <section className="offerings" id="laven" style={{ padding: '0' }}>
         <div className="offerings-grid">
           <div className="offering-card">
-            <span className="section-label">Ukedager & helger</span>
-            <h2>Låven – for <em>samlinger</em></h2>
-            <p>Med åpen takstol i furu, nytt parkettgulv og rikelig naturlig lys er låven like velegnet til en intim middag som til en heldags lederworkshop. Her skapes rom for både faglig dybde og god stemning.</p>
+            <span className="section-label">Arrangemnet</span>
+            <h2>Lei låven til din <em>samling</em></h2>
+            <p>Låven er den perfekte rammen for din samling – enten om dere er få eller mange, om dere vil spise, jobbe, praktisere yoga eller feire. Om dere ønsker å være for dere selv, eller om dere vil ha oss i nærheten bestemmer dere selv.</p>
             <ul>
-              <li>Opptil 30 personer til bords</li>
+              <li>Opptil 40 personer til bords</li>
               <li>Prosjektor, lerret og wifi</li>
               <li>Eget toalettanlegg</li>
-              <li>Fasilitert workshop med Cecilie</li>
-              <li>Teambuilding og strategiprogram</li>
-              <li>Konfirmasjon, dåp og runde dager</li>
+             <li>Konfirmasjon, dåp og runde dager</li>
               <li>Mindre bryllup og slektstreff</li>
+              <li>Fasilitering av team- og ledersamlinger med Cecilie</li>       
             </ul>
             <img src="/images/redalen-image-4.jpg" alt="Låven dekket til festmiddag" className="offering-img" />
           </div>
           <div className="offering-card">
-            <span className="section-label">Sommer</span>
-            <h2>Familier <em>med rom for alle</em></h2>
-            <p>Om sommeren er Redalen et sted for familier – inspirert av det vi selv savnet da barna var yngre: et sted uten stigma, uten kommentarer, med rom for uro og stillhet på samme tid.</p>
+            <span className="section-label">Praktisk</span>
+            <h2>Om <em>låven</em></h2>
+            <p>
+Vi har konferansebord og stoler som dere rigger etter eget ønske – klassisk langbord, hestesko eller noe helt annet. </p>
+
             <ul>
-              <li>Alle måltider inkludert</li>
-              <li>Morgenyoga for de som ønsker det</li>
-              <li>Basseng og SUP etter frokost</li>
-              <li>Varierte, frivillige aktiviteter</li>
-              <li>Glamping i hytte og stabbur</li>
-              <li>Grillkvelder og vedfyrt pizzaovn</li>
-              <li>Ca. 4 dager, lunsj til lunsj</li>
+              <li>Duker, glass, service og bestikk er inkludert i leien. Vil dere ha blomster, lager vi dekorasjoner fra vår egen blomstereng – bestilles separat.</li>
+              <li>Ta med egen mat og drikke – eller la oss hjelpe til. Vi tilbyr frokost, gryteretter og enkel bevertning. For større menyer samarbeider vi med lokale cateringtilbydere.</li>
             </ul>
+           <p> Vil dere også overnatte? Hovedhuset og hytta gir plass til 11–15 personer, stabburet gir ekstra kapasitet om sommeren, og med glamping kan vi tilby overnatting til alle 44 gjester. Hele tunet er da kun for dere.</br>
+Pris og booking: Vi setter opp et tilbud basert på antall gjester og ønsker. Ta kontakt så finner vi ut av det sammen.</p>
             <img src="/images/redalen-image-5.jpg" alt="Yoga i låven om morgenen" className="offering-img" />
           </div>
         </div>
@@ -117,7 +110,7 @@ const Redalen665 = () => {
       <section className="program">
         <div className="container">
           <div className="program-header">
-            <span className="section-label">Eksempel på opplegg</span>
+            <span className="section-label">Eksempel på samling</span>
             <h2>Et opphold <em>fra lunsj til lunsj</em></h2>
             <p>Dette er et eksempel – vi legger alltid programmet i dialog med gruppen.</p>
           </div>
@@ -125,10 +118,10 @@ const Redalen665 = () => {
             <div className="program-day">
               <h3>Dag 1 — Ankomst</h3>
               <div className="program-item"><span className="program-time">12:00</span><span className="program-desc">Ankomst og lunsj i låven eller ute</span></div>
-              <div className="program-item"><span className="program-time">14:00</span><span className="program-desc">Teambuilding, naturtur eller kreativ økt</span></div>
+              <div className="program-item"><span className="program-time">14:00</span><span className="program-desc">Teambuilding, hinderløype eller kreativ økt</span></div>
               <div className="program-item"><span className="program-time">16:00</span><span className="program-desc">Faglig program i låven – workshop eller presentasjoner</span></div>
-              <div className="program-item"><span className="program-time">19:00</span><span className="program-desc">Middag – enten hos oss eller fra lokal catering</span></div>
-              <div className="program-item" style={{ borderBottom: 'none' }}><span className="program-time">21:00</span><span className="program-desc">Badstue, grillhytte eller rolig kveld</span></div>
+              <div className="program-item"><span className="program-time">19:00</span><span className="program-desc">Middag – enten selvlaget eller fra lokal catering</span></div>
+              <div className="program-item" style={{ borderBottom: 'none' }}><span className="program-time">21:00</span><span className="program-desc">Badstue, bading eller rolig kveld</span></div>
             </div>
             <div className="program-day">
               <h3>Dag 2 — Avreise</h3>
@@ -136,46 +129,166 @@ const Redalen665 = () => {
               <div className="program-item"><span className="program-time">09:00</span><span className="program-desc">Frokost</span></div>
               <div className="program-item"><span className="program-time">10:00</span><span className="program-desc">Faglig økt eller felles refleksjon</span></div>
               <div className="program-item" style={{ borderBottom: 'none' }}><span className="program-time">12:00</span><span className="program-desc">Lunsj og avreise</span></div>
-              <p style={{ marginTop: '2rem', fontStyle: 'italic', fontSize: '0.82rem', color: 'var(--sage)' }}>Vi anbefaler opptil 10–12 personer dersom alle skal ha egen seng.</p>
+  
             </div>
           </div>
         </div>
       </section>
 
 
-      <section className="spaces" id="rom">
+      <section className="spaces" id="overnatting">
         <div className="container spaces-header">
-          <span className="section-label">Overnatting & rom</span>
-          <h2>Tre bygg – <em>én stemning</em></h2>
-          <p>Alle rommene bærer sin egen karakter og historie, men henger naturlig sammen som ett anlegg.</p>
+          <span className="section-label">Overnatting/span>
+          <h2>Et tun av <em>muligheter</em></h2>
+          <p>Når dere booker overnatting i Redalen 665, leier dere ikke bare et rom – dere leier hele stedet. Ingen andre gjester, ingen naboer å ta hensyn til.
+Tunet består av et hovedhus fra 1890 og en laftet hytte som leies ut hele året. Når minusgradene gir seg, øker vi sengekapasiteten med stabburet og om sommeren kommer glampingteltene til – ett på knausen med panoramautsikt, ett skjermet inne i skogen.
+</p>
         </div>
+
+       <div>
+          <h3>Hovedhuset – en sjarmbombe fra <em>1890</em></h3>
+          <p>Tykke vegger, skjeive gulv og et peissmykke som virkelig varmer. Fullt utstyrt kjøkken, stue og spisestue, tre soverom og to bad. Verandaen på framsiden er stedet å være om sommeren. Om vinteren samles alle rundt peisene.
+Sengeplass til 6–8 personer. Ett soverom og bad i kjelleren har egen utvendig inngang – praktisk for dem som vil ha litt privatliv.
+Merk: Huset er gammelt og lytt. De fleste syns det er koselig – men det er greit å vite.
+</p>
+        </div>
+          
         <div style={{ maxWidth: '1160px', margin: '0 auto', padding: '0 2.5rem' }}>
           <div className="spaces-grid">
             <div className="space-cell">
               <img src="/images/redalen-image-6.jpg" alt="Stua i hovedhuset" />
-                <div className="space-cell-label"><h4>Hovedhuset</h4><p>Stue, kjøkken, 4 soverom</p></div>
+                <div className="space-cell-label"><h4>Stuen</h4><p>Romslig stue med den fineste peisen </p></div>
             </div>
             <div className="space-cell">
               <img src="/images/redalen-image-7.jpg" alt="Kjøkkenet med blågrønne skap" />
-                <div className="space-cell-label"><h4>Kjøkkenet</h4><p>Fullt utstyrt for hele gruppen</p></div>
+                <div className="space-cell-label"><h4>Kjøkkenet</h4><p>Fullt utstyrt med det du trenger</p></div>
             </div>
             <div className="space-cell">
               <img src="/images/redalen-image-8.jpg" alt="Soverom i hytta" />
-                <div className="space-cell-label"><h4>Hytta</h4><p>Laftet tømmer, hemse og kjøkken</p></div>
+                <div className="space-cell-label"><h4>Soverommet</h4><p>Dobbeltseng 140 cm</p></div>
             </div>
           </div>
           <div className="spaces-grid-bottom">
             <div className="space-cell">
               <img src="/images/redalen-image-9.jpg" alt="Låvesalen" style={{ height: '360px' }} />
-                <div className="space-cell-label"><h4>Låvesalen</h4><p>Opptil 30 til bords · Yoga · Workshop · Feiring</p></div>
+                <div className="space-cell-label"><h4>Låvesalen</h4><p>Opptil 40 til bords · Yoga · Workshop · Feiring</p></div>
             </div>
             <div className="space-cell">
-              <img src="/images/redalen-image-10.jpg" alt="Hemse i hytta" style={{ height: '360px'}} />
-                <div className="space-cell-label"><h4>Hyttehemsen</h4><p>Koselig soveplass under åsen</p></div>
+              <img src="/images/redalen-image-10.jpg" alt="Hemsen i hytta" style={{ height: '360px'}} />
+                <div className="space-cell-label"><h4>Hyttehemsen</h4><p>Romslig soveplasser på hemsen </p></div>
             </div>
           </div>
         </div>
-      </section>
+
+               <div>
+          <h3>Hytta med laftet tømmer og ekte <em>hyttefølelse</em></h3>
+          <p>Tømmervegger, lun atmosfære og en hems ungene elsker. Sengeplass til 5–7 personer. Tekjøkken med to kokeplater, kjøleskap og kaffetrakter – men ikke stekeovn.
+Hytta fungerer fint alene for en liten gruppe, eller som del av en større booking med hovedhuset.
+
+</p>
+        </div>
+          
+        <div style={{ maxWidth: '1160px', margin: '0 auto', padding: '0 2.5rem' }}>
+          <div className="spaces-grid">
+            <div className="space-cell">
+              <img src="/images/redalen-image-6.jpg" alt="Stua i hovedhuset" />
+                <div className="space-cell-label"><h4>Stuen</h4><p>Romslig stue med den fineste peisen </p></div>
+            </div>
+            <div className="space-cell">
+              <img src="/images/redalen-image-7.jpg" alt="Kjøkkenet med blågrønne skap" />
+                <div className="space-cell-label"><h4>Kjøkkenet</h4><p>Fullt utstyrt med det du trenger</p></div>
+            </div>
+            <div className="space-cell">
+              <img src="/images/redalen-image-8.jpg" alt="Soverom i hytta" />
+                <div className="space-cell-label"><h4>Soverommet</h4><p>Dobbeltseng 140 cm</p></div>
+            </div>
+          </div>
+          <div className="spaces-grid-bottom">
+            <div className="space-cell">
+              <img src="/images/redalen-image-9.jpg" alt="Låvesalen" style={{ height: '360px' }} />
+                <div className="space-cell-label"><h4>Låvesalen</h4><p>Opptil 40 til bords · Yoga · Workshop · Feiring</p></div>
+            </div>
+            <div className="space-cell">
+              <img src="/images/redalen-image-10.jpg" alt="Hemsen i hytta" style={{ height: '360px'}} />
+                <div className="space-cell-label"><h4>Hyttehemsen</h4><p>Romslig soveplasser på hemsen </p></div>
+            </div>
+          </div>
+        </div>
+
+                 <div>
+          <h3>Stabburet og grillhytta med særegen <em>sjarm</em></h3>
+          <p>Det gamle stabburet gir plass til 2–4 personer i sommerhalvåret. Perfekt for ungdommer eller dem som vil ha litt avstand fra resten av selskapet. I grillhytta samles vi og nyter utsikten!
+        
+</p>
+        </div>
+          
+        <div style={{ maxWidth: '1160px', margin: '0 auto', padding: '0 2.5rem' }}>
+          <div className="spaces-grid">
+            <div className="space-cell">
+              <img src="/images/redalen-image-6.jpg" alt="Stua i hovedhuset" />
+                <div className="space-cell-label"><h4>Stuen</h4><p>Romslig stue med den fineste peisen </p></div>
+            </div>
+            <div className="space-cell">
+              <img src="/images/redalen-image-7.jpg" alt="Kjøkkenet med blågrønne skap" />
+                <div className="space-cell-label"><h4>Kjøkkenet</h4><p>Fullt utstyrt med det du trenger</p></div>
+            </div>
+            <div className="space-cell">
+              <img src="/images/redalen-image-8.jpg" alt="Soverom i hytta" />
+                <div className="space-cell-label"><h4>Soverommet</h4><p>Dobbeltseng 140 cm</p></div>
+            </div>
+          </div>
+          <div className="spaces-grid-bottom">
+            <div className="space-cell">
+              <img src="/images/redalen-image-9.jpg" alt="Låvesalen" style={{ height: '360px' }} />
+                <div className="space-cell-label"><h4>Låvesalen</h4><p>Opptil 40 til bords · Yoga · Workshop · Feiring</p></div>
+            </div>
+            <div className="space-cell">
+              <img src="/images/redalen-image-10.jpg" alt="Hemsen i hytta" style={{ height: '360px'}} />
+                <div className="space-cell-label"><h4>Hyttehemsen</h4><p>Romslig soveplasser på hemsen </p></div>
+            </div>
+          </div>
+        </div>
+
+                      <div>
+          <h3>Glamping</h3>
+          <p><b>Panoramateltet på knausen
+Et Sibley Apex 720 – 32 m² med store panoramavinduer og utsikt over Redalstjernet. Laget for helårsbruk, og like vakkert innenfra som utenfra.
+Safariteltet i skogen
+Skjermet, stille og med en stemning som er vanskelig å beskrive uten å ha vært der. Her forstyrrer ingenting.
+Begge teltene er møblert og klare for innflytting. Toalett og dusj er i låven. Sengetøy medbringes.
+
+</p>
+        </div>
+          
+        <div style={{ maxWidth: '1160px', margin: '0 auto', padding: '0 2.5rem' }}>
+          <div className="spaces-grid">
+            <div className="space-cell">
+              <img src="/images/redalen-image-6.jpg" alt="Stua i hovedhuset" />
+                <div className="space-cell-label"><h4>Stuen</h4><p>Romslig stue med den fineste peisen </p></div>
+            </div>
+            <div className="space-cell">
+              <img src="/images/redalen-image-7.jpg" alt="Kjøkkenet med blågrønne skap" />
+                <div className="space-cell-label"><h4>Kjøkkenet</h4><p>Fullt utstyrt med det du trenger</p></div>
+            </div>
+            <div className="space-cell">
+              <img src="/images/redalen-image-8.jpg" alt="Soverom i hytta" />
+                <div className="space-cell-label"><h4>Soverommet</h4><p>Dobbeltseng 140 cm</p></div>
+            </div>
+          </div>
+          <div className="spaces-grid-bottom">
+            <div className="space-cell">
+              <img src="/images/redalen-image-9.jpg" alt="Låvesalen" style={{ height: '360px' }} />
+                <div className="space-cell-label"><h4>Låvesalen</h4><p>Opptil 40 til bords · Yoga · Workshop · Feiring</p></div>
+            </div>
+            <div className="space-cell">
+              <img src="/images/redalen-image-10.jpg" alt="Hemsen i hytta" style={{ height: '360px'}} />
+                <div className="space-cell-label"><h4>Hyttehemsen</h4><p>Romslig soveplasser på hemsen </p></div>
+            </div>
+          </div>
+        </div>
+        
+        
+        </section>
 
 
       <section className="about">
