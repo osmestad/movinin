@@ -145,7 +145,7 @@ Tunet består av et hovedhus fra 1890 og en laftet hytte som leies ut hele året
 </p>
         </div>
 
-       <div>
+       <div className="container">
           <h3>Hovedhuset – en sjarmbombe fra <em>1890</em></h3>
           <p>Tykke vegger, skjeive gulv og et peissmykke som virkelig varmer. Fullt utstyrt kjøkken, stue og spisestue, tre soverom og to bad. Verandaen på framsiden er stedet å være om sommeren. Om vinteren samles alle rundt peisene.
 Sengeplass til 6–8 personer. Ett soverom og bad i kjelleren har egen utvendig inngang – praktisk for dem som vil ha litt privatliv.
@@ -153,7 +153,7 @@ Merk: Huset er gammelt og lytt. De fleste syns det er koselig – men det er gre
 </p>
         </div>
           
-        <div style={{ maxWidth: '1160px', margin: '0 auto', padding: '0 2.5rem' }}>
+        <div className="gallery-block">
           <div className="spaces-grid">
             <div className="space-cell">
               <img src="/images/redalen-image-6.jpg" alt="Stua i hovedhuset" />
@@ -180,7 +180,7 @@ Merk: Huset er gammelt og lytt. De fleste syns det er koselig – men det er gre
           </div>
         </div>
 
-               <div>
+               <div className="container">
           <h3>Hytta med laftet tømmer og ekte <em>hyttefølelse</em></h3>
           <p>Tømmervegger, lun atmosfære og en hems ungene elsker. Sengeplass til 5–7 personer. Tekjøkken med to kokeplater, kjøleskap og kaffetrakter – men ikke stekeovn.
 Hytta fungerer fint alene for en liten gruppe, eller som del av en større booking med hovedhuset.
@@ -188,7 +188,7 @@ Hytta fungerer fint alene for en liten gruppe, eller som del av en større booki
 </p>
         </div>
           
-        <div style={{ maxWidth: '1160px', margin: '0 auto', padding: '0 2.5rem' }}>
+        <div className="gallery-block">
           <div className="spaces-grid">
             <div className="space-cell">
               <img src="/images/redalen-image-6.jpg" alt="Stua i hovedhuset" />
@@ -215,14 +215,14 @@ Hytta fungerer fint alene for en liten gruppe, eller som del av en større booki
           </div>
         </div>
 
-                 <div>
+                 <div className="container">
           <h3>Stabburet og grillhytta med særegen <em>sjarm</em></h3>
           <p>Det gamle stabburet gir plass til 2–4 personer i sommerhalvåret. Perfekt for ungdommer eller dem som vil ha litt avstand fra resten av selskapet. I grillhytta samles vi og nyter utsikten!
         
 </p>
         </div>
           
-        <div style={{ maxWidth: '1160px', margin: '0 auto', padding: '0 2.5rem' }}>
+        <div className="gallery-block">
           <div className="spaces-grid">
             <div className="space-cell">
               <img src="/images/redalen-image-6.jpg" alt="Stua i hovedhuset" />
@@ -249,7 +249,7 @@ Hytta fungerer fint alene for en liten gruppe, eller som del av en større booki
           </div>
         </div>
 
-                      <div>
+                      <div className="container">
           <h3>Glamping</h3>
           <p><b>Panoramateltet på knausen</b>
 Et Sibley Apex 720 – 32 m² med store panoramavinduer og utsikt over Redalstjernet. Laget for helårsbruk, og like vakkert innenfra som utenfra.
@@ -260,7 +260,7 @@ Begge teltene er møblert og klare for innflytting. Toalett og dusj er i låven.
 </p>
         </div>
           
-        <div style={{ maxWidth: '1160px', margin: '0 auto', padding: '0 2.5rem' }}>
+        <div className="gallery-block">
           <div className="spaces-grid">
             <div className="space-cell">
               <img src="/images/redalen-image-6.jpg" alt="Stua i hovedhuset" />

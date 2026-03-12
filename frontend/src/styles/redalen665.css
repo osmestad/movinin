@@ -1,8 +1,7 @@
 :root {
   --dark: #1a2310;
   --forest: #1A412F; /* new */
-  --moss: #3d5228;
-  --sage: #7A8F62;
+  --sage: #7A8F62; /* new (and old) */
   --cream: #F0EADE; /* new */
   --warm: #EDE4D0;
   --gold: #8faa6a;
@@ -80,7 +79,7 @@ nav ul a:hover {
 }
 
 .nav-cta:hover {
-  background: var(--moss) !important;
+  background: var(--sage) !important;
 }
 
 /* HERO */
@@ -212,13 +211,13 @@ h2 {
 
 h2 em {
   font-style: italic;
-  color: var(--moss);
+  color: var(--sage);
 }
 
 p {
   font-size: 0.98rem;
   line-height: 1.85;
-  color: var(--muted);
+  /* color: var(--muted); */
   max-width: 62ch;
 }
 
@@ -352,7 +351,7 @@ p {
 }
 
 .program-day {
-  border-top: 2px solid var(--moss);
+  border-top: 2px solid var(--sage);
   padding-top: 2rem;
 }
 
@@ -384,7 +383,7 @@ p {
 
 .program-desc {
   font-size: 0.9rem;
-  color: var(--muted);
+  /* color: var(--muted); */
   line-height: 1.5;
 }
 
@@ -395,6 +394,12 @@ p {
 
 .spaces-header {
   margin-bottom: 3.5rem;
+}
+
+.gallery-block {
+  max-width: 1160px;
+  margin: 0 auto 3rem;
+  padding: 0 2.5rem;
 }
 
 .spaces-grid {
@@ -589,7 +594,7 @@ p {
 .practical-block li {
   font-size: 0.86rem;
   line-height: 1.78;
-  color: var(--muted);
+  /* color: var(--muted); */
   max-width: 100%;
 }
 
@@ -702,7 +707,7 @@ p {
 }
 
 .btn:hover {
-  background: var(--moss);
+  background: var(--sage);
 }
 
 .btn-ghost {
@@ -805,6 +810,10 @@ footer p + p {
   }
 
   .container {
+    padding: 0 1.5rem;
+  }
+
+  .gallery-block {
     padding: 0 1.5rem;
   }
 
