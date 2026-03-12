@@ -263,26 +263,26 @@ Begge teltene er møblert og klare for innflytting. Toalett og dusj er i låven.
         <div className="gallery-block">
           <div className="spaces-grid">
             <div className="space-cell">
-              <img src="/images/redalen-image-6.jpg" alt="Stua i hovedhuset" />
-                <div className="space-cell-label"><h4>Stuen</h4><p>Romslig stue med den fineste peisen </p></div>
+              <img src="/images/01-laven-interior.jpg" alt="Laven - interiør" />
+                <div className="space-cell-label"><h4>Interiøren</h4><p>Romslig sal med den fineste utsikten</p></div>
             </div>
             <div className="space-cell">
-              <img src="/images/redalen-image-7.jpg" alt="Kjøkkenet med blågrønne skap" />
-                <div className="space-cell-label"><h4>Kjøkkenet</h4><p>Fullt utstyrt med det du trenger</p></div>
+              <img src="/images/02-laven-scene.jpg" alt="Laven - scene" />
+                <div className="space-cell-label"><h4>Scenen</h4><p>Perfekt for storre arrangementer</p></div>
             </div>
             <div className="space-cell">
-              <img src="/images/redalen-image-8.jpg" alt="Soverom i hytta" />
-                <div className="space-cell-label"><h4>Soverommet</h4><p>Dobbeltseng 140 cm</p></div>
+              <img src="/images/03-laven-detail.jpg" alt="Laven - detalj" />
+                <div className="space-cell-label"><h4>Detaljene</h4><p>Kledning og belysning av høy kvalitet</p></div>
             </div>
           </div>
           <div className="spaces-grid-bottom">
             <div className="space-cell">
-              <img src="/images/redalen-image-9.jpg" alt="Låvesalen" style={{ height: '360px' }} />
-                <div className="space-cell-label"><h4>Låvesalen</h4><p>Opptil 40 til bords · Yoga · Workshop · Feiring</p></div>
+              <img src="/images/04-laven-host.jpg" alt="Laven - høst" style={{ height: '360px' }} />
+                <div className="space-cell-label"><h4>Høsten</h4><p>Vakker omgivelser hele året </p></div>
             </div>
             <div className="space-cell">
-              <img src="/images/redalen-image-10.jpg" alt="Hemsen i hytta" style={{ height: '360px'}} />
-                <div className="space-cell-label"><h4>Hyttehemsen</h4><p>Romslig soveplasser på hemsen </p></div>
+              <img src="/images/05-laven-salen.jpg" alt="Laven - salen" style={{ height: '360px'}} />
+                <div className="space-cell-label"><h4>Salen</h4><p>Kombinert med uteliv og naturopplevelse</p></div>
             </div>
           </div>
         </div>
