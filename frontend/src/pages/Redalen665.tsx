@@ -54,7 +54,7 @@ const Redalen665 = () => {
 <p>Tunet består av et hovedhus fra 1890, en laftet hytte, et sjarmerende stabbur og en grillhytte med utsikt mot Redalstjernet.
 </p>
               
-              <p>Vi leier ut hele stedet samlet, eller delt –– etter behov. Men, alltid til kun én av gangen. I tillegg til utleie, fasiliterer vi bedriftssamlinger og er med å arrangere private selskaper. </p>
+              <p>Vi leier kun ut til én gruppe av gangen – dere har hele stedet for dere selv. I tillegg til utleie, fasiliterer vi bedriftssamlinger og er med å arrangere private selskaper. </p>
               <div className="divider"><span>Vi tilbyr</span></div>
               <div className="tag-cloud">
                 <span className="tag">Teamsamlinger</span>
