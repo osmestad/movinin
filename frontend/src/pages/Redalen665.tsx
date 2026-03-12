@@ -99,7 +99,7 @@ Vi har konferansebord og stoler som dere rigger etter eget ønske – klassisk l
               <li>Duker, glass, service og bestikk er inkludert i leien. Vil dere ha blomster, lager vi dekorasjoner fra vår egen blomstereng – bestilles separat.</li>
               <li>Ta med egen mat og drikke – eller la oss hjelpe til. Vi tilbyr frokost, gryteretter og enkel bevertning. For større menyer samarbeider vi med lokale cateringtilbydere.</li>
             </ul>
-           <p> Vil dere også overnatte? Hovedhuset og hytta gir plass til 11–15 personer, stabburet gir ekstra kapasitet om sommeren, og med glamping kan vi tilby overnatting til alle 44 gjester. Hele tunet er da kun for dere.</br>
+           <p> Vil dere også overnatte? Hovedhuset og hytta gir plass til 11–15 personer, stabburet gir ekstra kapasitet om sommeren, og med glamping kan vi tilby overnatting til alle 44 gjester. Hele tunet er da kun for dere.<br />
 Pris og booking: Vi setter opp et tilbud basert på antall gjester og ønsker. Ta kontakt så finner vi ut av det sammen.</p>
             <img src="/images/redalen-image-5.jpg" alt="Yoga i låven om morgenen" className="offering-img" />
           </div>
@@ -138,7 +138,7 @@ Pris og booking: Vi setter opp et tilbud basert på antall gjester og ønsker. T
 
       <section className="spaces" id="overnatting">
         <div className="container spaces-header">
-          <span className="section-label">Overnatting/span>
+          <span className="section-label">Overnatting</span>
           <h2>Et tun av <em>muligheter</em></h2>
           <p>Når dere booker overnatting i Redalen 665, leier dere ikke bare et rom – dere leier hele stedet. Ingen andre gjester, ingen naboer å ta hensyn til.
 Tunet består av et hovedhus fra 1890 og en laftet hytte som leies ut hele året. Når minusgradene gir seg, øker vi sengekapasiteten med stabburet og om sommeren kommer glampingteltene til – ett på knausen med panoramautsikt, ett skjermet inne i skogen.
@@ -251,7 +251,7 @@ Hytta fungerer fint alene for en liten gruppe, eller som del av en større booki
 
                       <div>
           <h3>Glamping</h3>
-          <p><b>Panoramateltet på knausen
+          <p><b>Panoramateltet på knausen</b>
 Et Sibley Apex 720 – 32 m² med store panoramavinduer og utsikt over Redalstjernet. Laget for helårsbruk, og like vakkert innenfra som utenfra.
 Safariteltet i skogen
 Skjermet, stille og med en stemning som er vanskelig å beskrive uten å ha vært der. Her forstyrrer ingenting.
