@@ -191,25 +191,25 @@ Hytta fungerer fint alene for en liten gruppe, eller som del av en større booki
         <div className="gallery-block">
           <div className="spaces-grid">
             <div className="space-cell">
-              <img src="/images/redalen-image-6.jpg" alt="Stua i hovedhuset" />
+              <img src="/images/01-hytta-spiseplassen.jpg" alt="Stua i hovedhuset" />
                 <div className="space-cell-label"><h4>Stuen</h4><p>Romslig stue med den fineste peisen </p></div>
             </div>
             <div className="space-cell">
-              <img src="/images/redalen-image-7.jpg" alt="Kjøkkenet med blågrønne skap" />
+              <img src="/images/02-hytta-hemsen.jpg" alt="Kjøkkenet med blågrønne skap" />
                 <div className="space-cell-label"><h4>Kjøkkenet</h4><p>Fullt utstyrt med det du trenger</p></div>
             </div>
             <div className="space-cell">
-              <img src="/images/redalen-image-8.jpg" alt="Soverom i hytta" />
+              <img src="/images/03-hytta-soverom.jpg" alt="Soverom i hytta" />
                 <div className="space-cell-label"><h4>Soverommet</h4><p>Dobbeltseng 140 cm</p></div>
             </div>
           </div>
           <div className="spaces-grid-bottom">
             <div className="space-cell">
-              <img src="/images/redalen-image-9.jpg" alt="Låvesalen" style={{ height: '360px' }} />
+              <img src="/images/04-hytta-stue.jpg" alt="Låvesalen" style={{ height: '360px' }} />
                 <div className="space-cell-label"><h4>Låvesalen</h4><p>Opptil 40 til bords · Yoga · Workshop · Feiring</p></div>
             </div>
             <div className="space-cell">
-              <img src="/images/redalen-image-10.jpg" alt="Hemsen i hytta" style={{ height: '360px'}} />
+              <img src="/images/05-hytta-ute.jpg" alt="Hemsen i hytta" style={{ height: '360px'}} />
                 <div className="space-cell-label"><h4>Hyttehemsen</h4><p>Romslig soveplasser på hemsen </p></div>
             </div>
           </div>
