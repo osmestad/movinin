@@ -225,25 +225,25 @@ Hytta fungerer fint alene for en liten gruppe, eller som del av en større booki
         <div className="gallery-block">
           <div className="spaces-grid">
             <div className="space-cell">
-              <img src="/images/redalen-image-6.jpg" alt="Stua i hovedhuset" />
+              <img src="/images/stabburet-ute-host.jpg" alt="Stabburet ute om høsten" />
                 <div className="space-cell-label"><h4>Stuen</h4><p>Romslig stue med den fineste peisen </p></div>
             </div>
             <div className="space-cell">
-              <img src="/images/redalen-image-7.jpg" alt="Kjøkkenet med blågrønne skap" />
-                <div className="space-cell-label"><h4>Kjøkkenet</h4><p>Fullt utstyrt med det du trenger</p></div>
+              <img src="/images/01-grillhytta-cu.jpg" alt="Grillhytta detalj" />
+                <div className="space-cell-label"><h4>Grillhytta</h4><p>Idyllisk hytte med grill</p></div>
             </div>
             <div className="space-cell">
-              <img src="/images/redalen-image-8.jpg" alt="Soverom i hytta" />
+              <img src="/images/03-grillhytta-solnedgang.jpg" alt="Soverom i hytta" />
                 <div className="space-cell-label"><h4>Soverommet</h4><p>Dobbeltseng 140 cm</p></div>
             </div>
           </div>
           <div className="spaces-grid-bottom">
             <div className="space-cell">
-              <img src="/images/redalen-image-9.jpg" alt="Låvesalen" style={{ height: '360px' }} />
+              <img src="/images/04-grillhytta-skinn.jpg" alt="Låvesalen" style={{ height: '360px' }} />
                 <div className="space-cell-label"><h4>Låvesalen</h4><p>Opptil 40 til bords · Yoga · Workshop · Feiring</p></div>
             </div>
             <div className="space-cell">
-              <img src="/images/redalen-image-10.jpg" alt="Hemsen i hytta" style={{ height: '360px'}} />
+              <img src="/images/05-ute-høst-fjell.jpg" alt="Hemsen i hytta" style={{ height: '360px'}} />
                 <div className="space-cell-label"><h4>Hyttehemsen</h4><p>Romslig soveplasser på hemsen </p></div>
             </div>
           </div>
