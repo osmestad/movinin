@@ -214,6 +214,14 @@ h2 em {
   color: var(--sage);
 }
 
+h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--dark);
+  margin-bottom: 0.9rem;
+}
+
 p {
   font-size: 0.98rem;
   line-height: 1.85;
@@ -398,7 +406,7 @@ p {
 
 .gallery-block {
   max-width: 1160px;
-  margin: 0 auto 3rem;
+  margin: 1rem auto 3rem;
   padding: 0 2.5rem;
 }
 
