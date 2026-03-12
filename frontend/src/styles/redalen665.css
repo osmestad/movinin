@@ -8,7 +8,7 @@
   --gold: #8faa6a;
   --text: #1a2310;
   --muted: #84472A; /* earth */ /* new */
-  --border: rgba(63,82,40,0.15);
+  --border: rgb(63 82 40 / 15%);
 }
 
 * {
@@ -24,7 +24,7 @@ html {
 body {
   background: var(--cream);
   color: var(--text);
-  font-family: 'Jost', sans-serif;
+  font-family: Jost, sans-serif;
   font-weight: 300;
   overflow-x: hidden;
 }
@@ -107,6 +107,7 @@ nav ul a:hover {
   from {
     transform: scale(1.04);
   }
+
   to {
     transform: scale(1.11);
   }
@@ -115,7 +116,7 @@ nav ul a:hover {
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to bottom, rgba(26, 35, 16, 0.2) 0%, rgba(26, 35, 16, 0.05) 40%, rgba(26, 35, 16, 0.78) 100%);
+  background: linear-gradient(to bottom, rgb(26 35 16 / 20%) 0%, rgb(26 35 16 / 5%) 40%, rgb(26 35 16 / 78%) 100%);
 }
 
 .hero-content {
@@ -130,6 +131,7 @@ nav ul a:hover {
     opacity: 0;
     transform: translateY(40px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -143,7 +145,7 @@ nav ul a:hover {
 .hero-logo-wrap img {
   height: 120px;
   width: auto;
-  filter: drop-shadow(0 4px 24px rgba(0, 0, 0, 0.4));
+  filter: drop-shadow(0 4px 24px rgb(0 0 0 / 40%));
   border-radius: 4px;
 }
 
@@ -152,27 +154,26 @@ nav ul a:hover {
   font-size: clamp(1.4rem, 3.5vw, 2.2rem);
   font-weight: 300;
   font-style: italic;
-  color: rgba(247, 243, 236, 0.9);
+  color: rgb(247 243 236 / 90%);
   letter-spacing: 0.04em;
   margin-bottom: 2.2rem;
 }
 
 .hero-pills {
-  display: flex;
   gap: 0;
   justify-content: center;
   flex-wrap: wrap;
-  border: 1px solid rgba(143, 170, 106, 0.35);
+  border: 1px solid rgb(143 170 106 / 35%);
   display: inline-flex;
 }
 
 .hero-pills span {
-  color: rgba(247, 243, 236, 0.7);
+  color: rgb(247 243 236 / 70%);
   font-size: 0.68rem;
   letter-spacing: 0.16em;
   text-transform: uppercase;
   padding: 0.6rem 1.4rem;
-  border-right: 1px solid rgba(143, 170, 106, 0.3);
+  border-right: 1px solid rgb(143 170 106 / 30%);
 }
 
 .hero-pills span:last-child {
@@ -252,11 +253,8 @@ p {
 .intro-image::before {
   content: '';
   position: absolute;
-  top: -1.4rem;
-  left: -1.4rem;
-  right: 1.4rem;
-  bottom: 1.4rem;
-  border: 1px solid rgba(143, 170, 106, 0.3);
+  inset: -1.4rem 1.4rem 1.4rem -1.4rem;
+  border: 1px solid rgb(143 170 106 / 30%);
   z-index: -1;
   pointer-events: none;
 }
@@ -275,7 +273,7 @@ p {
 
 .offering-card {
   padding: 6rem 4.5rem;
-  border-right: 1px solid rgba(255, 255, 255, 0.07);
+  border-right: 1px solid rgb(255 255 255 / 7%);
 }
 
 .offering-card:last-child {
@@ -283,7 +281,7 @@ p {
 }
 
 .offering-card .section-label {
-  color: rgba(143, 170, 106, 0.8);
+  color: rgb(143 170 106 / 80%);
 }
 
 .offering-card h2 {
@@ -293,7 +291,7 @@ p {
 }
 
 .offering-card > p {
-  color: rgba(247, 243, 236, 0.68);
+  color: rgb(247 243 236 / 68%);
   max-width: 48ch;
   margin-bottom: 1.8rem;
 }
@@ -304,10 +302,10 @@ p {
 }
 
 .offering-card ul li {
-  color: rgba(247, 243, 236, 0.72);
+  color: rgb(247 243 236 / 72%);
   font-size: 0.88rem;
   padding: 0.48rem 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  border-bottom: 1px solid rgb(255 255 255 / 6%);
   display: flex;
   align-items: center;
   gap: 0.7rem;
@@ -438,7 +436,7 @@ p {
   left: 0;
   right: 0;
   padding: 1.2rem 1rem 0.9rem;
-  background: linear-gradient(to top, rgba(26, 35, 16, 0.88) 0%, transparent 100%);
+  background: linear-gradient(to top, rgb(26 35 16 / 88%) 0%, transparent 100%);
 }
 
 .space-cell-label h4 {
@@ -450,7 +448,7 @@ p {
 
 .space-cell-label p {
   font-size: 0.68rem;
-  color: rgba(247, 243, 236, 0.65);
+  color: rgb(247 243 236 / 65%);
   letter-spacing: 0.1em;
   text-transform: uppercase;
   margin-top: 0.15rem;
@@ -477,7 +475,7 @@ p {
 }
 
 .about .section-label {
-  color: rgba(143, 170, 106, 0.8);
+  color: rgb(143 170 106 / 80%);
 }
 
 .about h2 {
@@ -485,7 +483,7 @@ p {
 }
 
 .about p {
-  color: rgba(247, 243, 236, 0.7);
+  color: rgb(247 243 236 / 70%);
 }
 
 .about p + p {
@@ -498,7 +496,7 @@ p {
   gap: 0.5rem;
   margin-top: 2rem;
   padding-top: 2rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgb(255 255 255 / 10%);
 }
 
 .credential {
@@ -506,7 +504,7 @@ p {
   align-items: center;
   gap: 0.8rem;
   font-size: 0.83rem;
-  color: rgba(247, 243, 236, 0.6);
+  color: rgb(247 243 236 / 60%);
 }
 
 .credential::before {
@@ -549,7 +547,7 @@ p {
 
 .tag {
   padding: 0.5rem 1.1rem;
-  border: 1px solid rgba(44, 58, 30, 0.3);
+  border: 1px solid rgb(44 58 30 / 30%);
   color: var(--forest);
   font-size: 0.75rem;
   letter-spacing: 0.09em;
@@ -603,7 +601,7 @@ p {
   padding: 0.28rem 0;
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px dotted rgba(0, 0, 0, 0.07);
+  border-bottom: 1px dotted rgb(0 0 0 / 7%);
 }
 
 .practical-block ul li span {
@@ -618,7 +616,7 @@ p {
 }
 
 .location .section-label {
-  color: rgba(143, 170, 106, 0.8);
+  color: rgb(143 170 106 / 80%);
 }
 
 .location h2 {
@@ -627,14 +625,14 @@ p {
 }
 
 .location > .container > p {
-  color: rgba(247, 243, 236, 0.65);
+  color: rgb(247 243 236 / 65%);
   margin: 0 auto 3rem;
 }
 
 .distance-row {
   display: flex;
   justify-content: center;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgb(255 255 255 / 10%);
   max-width: 680px;
   margin: 3rem auto 0;
 }
@@ -642,7 +640,7 @@ p {
 .distance-item {
   flex: 1;
   padding: 2rem 1.5rem;
-  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  border-right: 1px solid rgb(255 255 255 / 10%);
 }
 
 .distance-item:last-child {
@@ -662,7 +660,7 @@ p {
   font-size: 0.68rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: rgba(247, 243, 236, 0.5);
+  color: rgb(247 243 236 / 50%);
 }
 
 /* CTA */
@@ -722,7 +720,7 @@ p {
 /* FOOTER */
 footer {
   background: var(--dark);
-  color: rgba(247, 243, 236, 0.4);
+  color: rgb(247 243 236 / 40%);
   padding: 3rem;
   text-align: center;
 }
@@ -770,7 +768,7 @@ footer p + p {
   white-space: nowrap;
 }
 
-@media (max-width: 900px) {
+@media (width <= 900px) {
   nav {
     padding: 0.85rem 1.5rem;
   }
@@ -803,7 +801,7 @@ footer p + p {
   .offering-card {
     padding: 4rem 2rem;
     border-right: none;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+    border-bottom: 1px solid rgb(255 255 255 / 7%);
   }
 
   .container {
